@@ -1,4 +1,4 @@
-#![cfg_attr(docsrs, feature(doc_auto_cfg))]
+#![cfg_attr(docsrs, feature(doc_cfg))]
 //! A simple crate provides a drop-in replacement for [`axum::Json`]
 //! that uses [`jsonschema`] to validate requests schemas
 //! generated via [`schemars`].
